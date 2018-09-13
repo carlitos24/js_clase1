@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>js clase 1</title>
+	<script>
+		// key c => charcode 99, key p => charCode 112
+		console.log(e)
+		document.addEventListener("keypress", function(e) {
+			var ryu = document.querySelector("img");
+			if (e.charCode === 99) {
+				ryu.src = "./css/images/1.png";
+			} else if (e.charCode === 112) {
+				ryu.src = "./css/images/2.png"
+			} else if (e.charCode === 80) {
+				ryu.src = "./css/images/3.png";
+			} else if (e.charCode === 81) {
+				ryu.src = "./css/images/4.png";
+			}
+
+		})
+	</script>
+</head>
+<body>
+	<img src="./css/images/1.png" alt="ryu-1">
+</body>
+</html>
